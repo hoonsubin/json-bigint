@@ -18,7 +18,7 @@ declare namespace JSONbig {
     source: string,
     reviver?: (this: any, key: string, value: any) => any,
     options?: Options
-  ): object;
+  ): any;
 
   /**
    * The stringify method takes a value and an optional replacer, and an optional
